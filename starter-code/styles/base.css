@@ -1,9 +1,14 @@
 /* DONE: Add a rule for images, so they never exceed their container's width. */
 
-p img  {
+img.pull-right {
   max-width: 100%;
   margin: auto 0;
   /*position: relative;*/
+}
+
+img.pull-left {
+  max-width: 100%;
+  margin: auto 0;
 }
 
 body {
