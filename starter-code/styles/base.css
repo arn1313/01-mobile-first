@@ -1,6 +1,6 @@
 /* DONE: Add a rule for images, so they never exceed their container's width. */
 
-img  {
+p img  {
   max-width: 100%;
   margin: auto 0;
   /*position: relative;*/
