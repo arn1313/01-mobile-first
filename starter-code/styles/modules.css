@@ -64,6 +64,15 @@
 /* @media only screen... */
 
 @media only screen and (min-width: 960px) {
+
+  .main-nav li {
+    display: inline-block;
+    padding-right: 15em;
+  }
+  .main-nav ul {
+    display: block;
+  }
+
   .icon-menu:before {
     display: none;
   }
@@ -73,6 +82,5 @@
     display: inline-block;
     padding: 5em;
   }
-
 
 }
